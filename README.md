@@ -23,13 +23,13 @@ Every block is a folder; the bigger the block, the more space it takes. Click to
 
 | Branch | What it is |
 |---|---|
-| `main` | The **Mac App Store edition**: App Sandbox, you choose your Home folder once, StoreKit purchases (first cleaning free, then monthly or lifetime). |
+| `main` | The **Mac App Store edition** ([get it here](https://apps.apple.com/us/app/clean-systemdata-seeyourdisk/id6817565741)): App Sandbox, you choose your Home folder once, StoreKit purchases (first cleaning free, then monthly or lifetime). |
 | `development` | Day-to-day work; merges into `main`. |
 | `open-source` | The **open-source edition**: no purchases, no App Sandbox, uses **Full Disk Access** for a complete scan. Free to build and use. |
 
 ## Build
 
-Requirements: Xcode 26 or newer, macOS 14+ deployment target.
+Requirements: Xcode 26 or newer, macOS 14+ deployment target. This is the **open-source edition**: free, no purchases, Full Disk Access instead of the App Sandbox.
 
 ```bash
 git clone git@github.com:bikmeev/see-your-disk.git
@@ -37,7 +37,7 @@ cd see-your-disk
 open SeeYourDisk.xcodeproj
 ```
 
-Select the `SeeYourDisk` scheme and press ⌘R. In the App Store edition the run scheme uses `Products.storekit`, so purchases are simulated locally.
+Select the `SeeYourDisk` scheme and press ⌘R. This edition has no purchases and no App Sandbox. On first launch it asks you to grant **Full Disk Access** (System Settings → Privacy & Security) for a complete scan.
 
 To use your own signing, change the Team and Bundle Identifier in *Signing & Capabilities*.
 
@@ -51,13 +51,13 @@ To use your own signing, change the Team and Bundle Identifier in *Signing & Cap
 
 ## Privacy
 
-The app reads file names and sizes locally and never uploads anything. See [docs/privacy-policy.md](docs/privacy-policy.md) and [docs/terms-of-use.md](docs/terms-of-use.md).
+The app reads file names and sizes locally and never uploads anything. See [docs/privacy-policy.md](docs/privacy-policy.md).
 
 ## Project layout
 
 ```
-SeeYourDisk/Core     scanner, cleanup rules, treemap, store, models
-SeeYourDisk/Views    map, inspector, onboarding, paywall, scan screen + Tetris
+SeeYourDisk/Core     scanner, cleanup rules, treemap, models
+SeeYourDisk/Views    map, inspector, onboarding, scan screen + Tetris
 docs/                privacy policy, terms, App Store listing texts
 ```
 

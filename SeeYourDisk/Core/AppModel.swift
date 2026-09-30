@@ -25,9 +25,6 @@ final class AppModel {
     var cleanTotal = 0
     var cleanBytes: Int64 = 0
     var cleanCurrent = ""
-    let store = Store()
-    var showPaywall = false
-    private var waiting: [Candidate]?
     var lastResult: CleanResult?
 
     private var scanTask: Task<Void, Never>?
@@ -127,12 +124,6 @@ final class AppModel {
     func requestClean(_ items: [Candidate]) {
         let ok = items.filter { $0.safety != .protected }
         guard !ok.isEmpty, !isCleaning else { return }
-        // First cleaning is free; from the second one on, Pro is needed.
-        if !store.isPro && FreeCleans.count() >= 1 {
-            waiting = ok
-            showPaywall = true
-            return
-        }
         pending = ok
     }
 
@@ -150,7 +141,6 @@ final class AppModel {
                     }
                 }
             }.value
-            if result.done > 0 && !store.isPro { FreeCleans.increment() }
             // Reflect the result right away; the user rescans when they want fresh sizes.
             candidates.removeAll { result.removed.contains($0.id) }
             selection.subtract(result.removed)
@@ -159,16 +149,9 @@ final class AppModel {
         }
     }
 
-    /// Called after a successful purchase: carries on with the cleaning that triggered the paywall.
-    func paywallUnlocked() {
-        showPaywall = false
-        if let items = waiting {
-            waiting = nil
-            // Let the paywall sheet finish closing before the confirmation appears.
-            Task {
-                try? await Task.sleep(for: .milliseconds(600))
-                pending = items
-            }
+    func openFullDiskAccessSettings() {
+        if let url = URL(string: "x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_AllFiles") {
+            NSWorkspace.shared.open(url)
         }
     }
 

@@ -3,14 +3,15 @@ import SwiftUI
 struct ContentView: View {
     @AppStorage("hasCompletedOnboarding") private var onboarded = false
     @State private var model = AppModel()
-    @State private var access = HomeAccess()
+    @AppStorage("skippedDiskAccess") private var skippedAccess = false
+    @State private var hasAccess = DiskAccess.isGranted()
 
     var body: some View {
         Group {
             if !onboarded {
                 OnboardingView { onboarded = true }
-            } else if !access.granted {
-                AccessView(access: access)
+            } else if !hasAccess && !skippedAccess {
+                AccessView(onSkip: { skippedAccess = true }, onGranted: { hasAccess = true })
             } else {
                 MainView(model: model)
             }
@@ -35,8 +36,6 @@ private struct MainView: View {
             }
         }
         .task { if model.phase == .idle { model.startScan() } }
-        .sheet(isPresented: $model.showPaywall) { PaywallView(model: model) }
-        .toolbar { ToolbarItem(placement: .primaryAction) { SettingsMenu(model: model) } }
         .confirmationDialog(confirmTitle, isPresented: Binding(get: { model.pending != nil },
                                                                set: { if !$0 { model.pending = nil } }),
                             titleVisibility: .visible) {
@@ -80,9 +79,10 @@ private struct MainView: View {
     private var permissionBanner: some View {
         HStack {
             Image(systemName: "exclamationmark.triangle.fill").foregroundStyle(.yellow)
-            Text("Some folders are protected by macOS and were skipped, so the map may be slightly incomplete.")
+            Text("Some protected folders could not be read, so the map may be incomplete. Allow Full Disk Access for a full scan.")
                 .font(.callout)
             Spacer()
+            Button("Open Settings") { model.openFullDiskAccessSettings() }
         }
         .padding(.horizontal, 16).padding(.vertical, 8)
         .background(.yellow.opacity(0.12))

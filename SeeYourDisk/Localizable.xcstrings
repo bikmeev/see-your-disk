@@ -1395,7 +1395,6 @@
       }
     },
     "The app does not use the internet and does not send any data anywhere. Every scan and every action happens on your Mac.": {
-      "extractionState": "stale",
       "localizations": {
         "ru": {
           "stringUnit": {
@@ -1643,6 +1642,106 @@
           "stringUnit": {
             "state": "translated",
             "value": "Политика конфиденциальности"
+          }
+        }
+      }
+    },
+    "Clean everything that is safe in one click, or pick exactly what to remove. Anything that is not clearly safe goes to the Trash, and system files are protected. For a complete scan you can allow Full Disk Access in System Settings.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистите всё безопасное в один клик или выберите, что именно удалить. Всё, что не точно безопасно, уходит в Корзину, а системные файлы защищены. Для полного сканирования можно разрешить «Полный доступ к диску» в Системных настройках."
+          }
+        }
+      }
+    },
+    "Allow access to your disk": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешите доступ к диску"
+          }
+        }
+      }
+    },
+    "macOS asks for permission separately for Downloads, Music, Photos and other folders. Allow Full Disk Access once and those prompts never appear. The access is used only to measure and clean files on this Mac.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS запрашивает разрешение отдельно для Загрузок, Музыки, Фото и других папок. Разрешите «Полный доступ к диску» один раз, и эти запросы больше не появятся. Доступ используется только для подсчёта и очистки файлов на этом Mac."
+          }
+        }
+      }
+    },
+    "Open System Settings → Privacy & Security → Full Disk Access": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте Системные настройки → Конфиденциальность и безопасность → Полный доступ к диску"
+          }
+        }
+      }
+    },
+    "Turn on See Your Disk (use + to add it if it is not in the list)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включите See Your Disk (если его нет в списке, добавьте через +)"
+          }
+        }
+      }
+    },
+    "Come back and press “Restart app”": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вернитесь и нажмите «Перезапустить»"
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть настройки"
+          }
+        }
+      }
+    },
+    "Restart app": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перезапустить"
+          }
+        }
+      }
+    },
+    "Continue without access": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжить без доступа"
+          }
+        }
+      }
+    },
+    "Some protected folders could not be read, so the map may be incomplete. Allow Full Disk Access for a full scan.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Некоторые защищённые папки не удалось прочитать, поэтому карта может быть неполной. Разрешите «Полный доступ к диску» для полного сканирования."
           }
         }
       }

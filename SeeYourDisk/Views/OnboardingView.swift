@@ -16,10 +16,10 @@ struct OnboardingView: View {
              text: "See Your Disk turns your storage into a chip map. Every block is a folder, and its size shows how much space it takes. Click a block to zoom in."),
         Page(icon: "lock.shield",
              title: "100% local and private",
-             text: "The app never uploads your files or any data about them. Every scan and every action happens on your Mac. The only connection is Apple's own purchase system."),
+             text: "The app does not use the internet and does not send any data anywhere. Every scan and every action happens on your Mac."),
         Page(icon: "checkmark.seal",
              title: "You stay in control",
-             text: "Clean everything that is safe in one click, or pick exactly what to remove. Anything that is not clearly safe goes to the Trash, and system files are protected. You choose which folder the app may look at."),
+             text: "Clean everything that is safe in one click, or pick exactly what to remove. Anything that is not clearly safe goes to the Trash, and system files are protected. For a complete scan you can allow Full Disk Access in System Settings."),
     ]
 
     var body: some View {
