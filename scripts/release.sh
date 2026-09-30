@@ -49,7 +49,20 @@ MOUNT="$(hdiutil attach "$RW" -readwrite -noverify -noautoopen | sed -n 's#.*\(/
 trap 'hdiutil detach "$MOUNT" -force >/dev/null 2>&1 || true' EXIT
 VOLNAME="$(basename "$MOUNT")"
 mkdir "$MOUNT/.background"
-cp "$ROOT/scripts/dmg-background.tiff" "$MOUNT/.background/background.tiff"
+# Background drawn in Figma: scripts/dmg-background.png (660x400) + scripts/dmg-background@2x.png (1320x800).
+# The generated scripts/dmg-background.tiff is only a fallback.
+if [ -f "$ROOT/scripts/dmg-background.png" ]; then
+  cp "$ROOT/scripts/dmg-background.png" "$BUILD/bg1.png"; sips -s dpiWidth 72 -s dpiHeight 72 "$BUILD/bg1.png" >/dev/null
+  if [ -f "$ROOT/scripts/dmg-background@2x.png" ]; then
+    cp "$ROOT/scripts/dmg-background@2x.png" "$BUILD/bg2.png"; sips -s dpiWidth 144 -s dpiHeight 144 "$BUILD/bg2.png" >/dev/null
+    tiffutil -cathidpicheck "$BUILD/bg1.png" "$BUILD/bg2.png" -out "$BUILD/background.tiff"
+  else
+    sips -s format tiff "$BUILD/bg1.png" --out "$BUILD/background.tiff" >/dev/null
+  fi
+  cp "$BUILD/background.tiff" "$MOUNT/.background/background.tiff"
+else
+  cp "$ROOT/scripts/dmg-background.tiff" "$MOUNT/.background/background.tiff"
+fi
 ln -s /Applications "$MOUNT/Applications"
 # Finder lays out the window: needs "Automation" permission for your terminal the first time.
 osascript <<OSA
