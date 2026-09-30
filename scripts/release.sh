@@ -106,7 +106,13 @@ echo "▶ Checksum"
 ( cd "$BUILD" && shasum -a 256 "$(basename "$DMG")" > "$(basename "$DMG").sha256" )
 
 echo "▶ GitHub release v$VERSION"
+if gh release view "v$VERSION" >/dev/null 2>&1; then
+  echo "Release v$VERSION already exists. Delete it first:  gh release delete v$VERSION --cleanup-tag -y" >&2
+  exit 1
+fi
+# the tag must point at THIS commit (otherwise GitHub tags the default branch)
 gh release create "v$VERSION" "$DMG" "$DMG.sha256" \
+  --target "$(git rev-parse HEAD)" \
   --title "See Your Disk $VERSION" \
   --notes "Open-source edition (no purchases, Full Disk Access). Signed with Developer ID and notarized by Apple. The Mac App Store edition: https://apps.apple.com/us/app/clean-systemdata-seeyourdisk/id6817565741"
 
