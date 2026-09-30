@@ -36,10 +36,43 @@ ditto -c -k --keepParent "$APP" "$BUILD/app.zip"
 xcrun notarytool submit "$BUILD/app.zip" --keychain-profile "$PROFILE" --wait
 xcrun stapler staple "$APP"
 
-echo "▶ Make DMG"
+echo "▶ Make DMG (with background and arrow)"
+VOL="See Your Disk"
+RW="$BUILD/rw.dmg"
 STAGE="$BUILD/dmg"; mkdir -p "$STAGE"
-cp -R "$APP" "$STAGE/"; ln -s /Applications "$STAGE/Applications"
-hdiutil create -volname "See Your Disk" -srcfolder "$STAGE" -ov -format UDZO "$DMG"
+cp -R "$APP" "$STAGE/"
+hdiutil create -volname "$VOL" -srcfolder "$STAGE" -ov -format UDRW -fs HFS+ "$RW" >/dev/null
+MOUNT="$(hdiutil attach "$RW" -readwrite -noverify -noautoopen | sed -n 's#.*\(/Volumes/.*\)$#\1#p' | head -1)"
+mkdir "$MOUNT/.background"
+cp "$ROOT/scripts/dmg-background.tiff" "$MOUNT/.background/background.tiff"
+ln -s /Applications "$MOUNT/Applications"
+# Finder lays out the window: needs "Automation" permission for your terminal the first time.
+osascript <<OSA
+tell application "Finder"
+  tell disk "$VOL"
+    open
+    set current view of container window to icon view
+    set toolbar visible of container window to false
+    set statusbar visible of container window to false
+    set the bounds of container window to {200, 120, 860, 548}
+    set opts to the icon view options of container window
+    set arrangement of opts to not arranged
+    set icon size of opts to 112
+    set background picture of opts to file ".background:background.tiff"
+    set position of item "SeeYourDisk.app" of container window to {170, 190}
+    set position of item "Applications" of container window to {490, 190}
+    close
+    open
+    update without registering applications
+    delay 2
+    close
+  end tell
+end tell
+OSA
+sync
+hdiutil detach "$MOUNT" >/dev/null
+hdiutil convert "$RW" -format UDZO -imagekey zlib-level=9 -o "$DMG" >/dev/null
+codesign --force --sign "Developer ID Application" --timestamp "$DMG"
 
 echo "▶ Notarize DMG"
 xcrun notarytool submit "$DMG" --keychain-profile "$PROFILE" --wait
