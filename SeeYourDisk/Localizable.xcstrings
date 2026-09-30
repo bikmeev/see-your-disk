@@ -1,0 +1,1652 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "": {},
+    "%@ / month": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ / месяц"
+          }
+        }
+      }
+    },
+    "%@ files · %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Файлов: %@ · %@"
+          }
+        }
+      }
+    },
+    "%@ used of %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Занято %@ из %@"
+          }
+        }
+      }
+    },
+    "%lld items could not be removed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось удалить элементов: %lld."
+          }
+        }
+      }
+    },
+    "%lld of %lld · %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld из %lld · %@"
+          }
+        }
+      }
+    },
+    "← → move · ↑ rotate · ↓ soft drop · Space drop": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "← → движение · ↑ поворот · ↓ ускорить · Пробел — сбросить"
+          }
+        }
+      }
+    },
+    "← → move · ↑ rotate · ↓ soft drop · Space drop / pause": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "← → движение · ↑ поворот · ↓ ускорить · Пробел — сбросить / пауза"
+          }
+        }
+      }
+    },
+    "+%lld more": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ещё +%lld"
+          }
+        }
+      }
+    },
+    "100% local and private": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё локально и приватно"
+          }
+        }
+      }
+    },
+    "A large file of yours. Check that you no longer need it before removing.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш крупный файл. Убедитесь, что он больше не нужен, прежде чем удалять."
+          }
+        }
+      }
+    },
+    "About %@ left": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Осталось примерно %@"
+          }
+        }
+      }
+    },
+    "After enabling it, restart the app and rescan. This block will shrink into real folders you can clean.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "После включения перезапустите приложение и пересканируйте. Этот блок распадётся на реальные папки, которые можно чистить."
+          }
+        }
+      }
+    },
+    "Allow": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешить"
+          }
+        }
+      }
+    },
+    "Already in the Trash. Removing it frees space permanently.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Уже в Корзине. Удаление освободит место окончательно."
+          }
+        }
+      }
+    },
+    "APFS snapshots, for example after a macOS update": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Снимки APFS, например после обновления macOS"
+          }
+        }
+      }
+    },
+    "App archives. Keep the ones you may still need to submit or symbolicate.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Архивы приложений. Оставьте те, что ещё нужны для публикации или символикации."
+          }
+        }
+      }
+    },
+    "App caches": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кэши приложений"
+          }
+        }
+      }
+    },
+    "App data": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Данные приложений"
+          }
+        }
+      }
+    },
+    "Applications": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приложения"
+          }
+        }
+      }
+    },
+    "Apps rebuild this cache automatically the next time they run.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приложения пересоздадут этот кэш при следующем запуске."
+          }
+        }
+      }
+    },
+    "Auto clean · %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автоочистка · %@"
+          }
+        }
+      }
+    },
+    "Auto-select": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Авто-выбор"
+          }
+        }
+      }
+    },
+    "Back": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Назад"
+          }
+        }
+      }
+    },
+    "Buy license…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Купить лицензию…"
+          }
+        }
+      }
+    },
+    "Caches": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кэши"
+          }
+        }
+      }
+    },
+    "Can be cleaned": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Можно очистить"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отмена"
+          }
+        }
+      }
+    },
+    "Cancel any time": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отмена в любой момент"
+          }
+        }
+      }
+    },
+    "Choose Home folder": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать домашнюю папку"
+          }
+        }
+      }
+    },
+    "Choose your Home folder": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите домашнюю папку"
+          }
+        }
+      }
+    },
+    "Choose your Home folder (%@) so See Your Disk can measure and clean it.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выберите вашу домашнюю папку (%@), чтобы See Your Disk мог измерить и очистить её."
+          }
+        }
+      }
+    },
+    "Clean": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить"
+          }
+        }
+      }
+    },
+    "Clean %lld items (%@)?": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить элементов: %lld (%@)?"
+          }
+        }
+      }
+    },
+    "Clean all safe": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить всё безопасное"
+          }
+        }
+      }
+    },
+    "Clean everything that is safe in one click, or pick exactly what to remove. Anything that is not clearly safe goes to the Trash, and system files are protected. You choose which folder the app may look at.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистите всё безопасное в один клик или выберите, что именно удалить. Всё, что не точно безопасно, уходит в Корзину, а системные файлы защищены. Вы сами выбираете, какую папку приложение может видеть."
+          }
+        }
+      }
+    },
+    "Clean selected (%@)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистить выбранное (%@)"
+          }
+        }
+      }
+    },
+    "Cleaning finished": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистка завершена"
+          }
+        }
+      }
+    },
+    "Cleaning…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Очистка…"
+          }
+        }
+      }
+    },
+    "Click to select · double-click to open": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Клик — выбрать · двойной клик — открыть"
+          }
+        }
+      }
+    },
+    "Continue": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжить"
+          }
+        }
+      }
+    },
+    "Could not load prices.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось загрузить цены."
+          }
+        }
+      }
+    },
+    "Debug symbols for connected devices. Copied again when you plug the device in.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отладочные символы подключённых устройств. Скопируются снова при подключении устройства."
+          }
+        }
+      }
+    },
+    "Delete permanently": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить навсегда"
+          }
+        }
+      }
+    },
+    "Delete permanently (skip Trash)": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалять навсегда (минуя Корзину)"
+          }
+        }
+      }
+    },
+    "Developer": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разработка"
+          }
+        }
+      }
+    },
+    "Docker's virtual disk. Do not delete it. Free space from Docker Desktop instead (Troubleshoot → Clean / Purge data or docker system prune).": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Виртуальный диск Docker. Не удаляйте его. Освободите место через Docker Desktop (Troubleshoot → Clean / Purge data или docker system prune)."
+          }
+        }
+      }
+    },
+    "Documents": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Документы"
+          }
+        }
+      }
+    },
+    "Downloaded aerial wallpaper videos. macOS downloads them again on demand.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скачанные видеообои Aerial. macOS загрузит их снова по требованию."
+          }
+        }
+      }
+    },
+    "Downloaded Chrome update packages. Re-downloaded if needed.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скачанные пакеты обновлений Chrome. При необходимости загрузятся снова."
+          }
+        }
+      }
+    },
+    "Estimating time…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оцениваем время…"
+          }
+        }
+      }
+    },
+    "Everything except protected": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё, кроме защищённых"
+          }
+        }
+      }
+    },
+    "Everything happens on this Mac. Nothing leaves it.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё происходит на этом Mac. Ничего не покидает его."
+          }
+        }
+      }
+    },
+    "Freed %@.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Освобождено: %@."
+          }
+        }
+      }
+    },
+    "Game over": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Игра окончена"
+          }
+        }
+      }
+    },
+    "Get started": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начать"
+          }
+        }
+      }
+    },
+    "Get unlimited cleaning with See Your Disk Pro.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Безлимитная очистка с See Your Disk Pro."
+          }
+        }
+      }
+    },
+    "Gradle dependency cache. Re-downloaded on the next build.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кэш зависимостей Gradle. Загрузится снова при следующей сборке."
+          }
+        }
+      }
+    },
+    "Green dot = can be cleaned": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Зелёная точка = можно очистить"
+          }
+        }
+      }
+    },
+    "Hatched = selected for cleaning": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штриховка = выбрано для очистки"
+          }
+        }
+      }
+    },
+    "Items will be deleted immediately and cannot be recovered.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Элементы будут удалены сразу, восстановить их будет нельзя."
+          }
+        }
+      }
+    },
+    "Items will be moved to the Trash. Empty the Trash to actually free the space.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Элементы будут перемещены в Корзину. Чтобы освободить место, очистите Корзину."
+          }
+        }
+      }
+    },
+    "Keep your disk clean": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Держите диск чистым"
+          }
+        }
+      }
+    },
+    "Large files": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Крупные файлы"
+          }
+        }
+      }
+    },
+    "Largest inside": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Самое большое внутри"
+          }
+        }
+      }
+    },
+    "Largest of them": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Самые крупные из них"
+          }
+        }
+      }
+    },
+    "Later": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Позже"
+          }
+        }
+      }
+    },
+    "Legend": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обозначения"
+          }
+        }
+      }
+    },
+    "License: Lifetime": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лицензия: навсегда"
+          }
+        }
+      }
+    },
+    "License: Monthly subscription": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лицензия: ежемесячная подписка"
+          }
+        }
+      }
+    },
+    "License: none": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Лицензия: нет"
+          }
+        }
+      }
+    },
+    "Lifetime": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Навсегда"
+          }
+        }
+      }
+    },
+    "Lines %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Линий %lld"
+          }
+        }
+      }
+    },
+    "Logs & Trash": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Логи и Корзина"
+          }
+        }
+      }
+    },
+    "macOS": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS"
+          }
+        }
+      }
+    },
+    "macOS & other system data": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS и прочие системные данные"
+          }
+        }
+      }
+    },
+    "macOS & System Data": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS и системные данные"
+          }
+        }
+      }
+    },
+    "macOS did not grant access. Please try again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS не выдала доступ. Попробуйте ещё раз."
+          }
+        }
+      }
+    },
+    "macOS lets an app see only the folders you choose. Pick your Home folder once and See Your Disk can measure it and clean caches, logs and leftovers inside it. You can change this later.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS даёт приложению видеть только те папки, которые вы выбрали. Выберите домашнюю папку один раз, и See Your Disk сможет измерить её и очистить кэши, логи и остатки внутри. Позже это можно изменить."
+          }
+        }
+      }
+    },
+    "Manage subscription…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Управление подпиской…"
+          }
+        }
+      }
+    },
+    "Map": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Карта"
+          }
+        }
+      }
+    },
+    "Media": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Медиа"
+          }
+        }
+      }
+    },
+    "Monthly": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ежемесячно"
+          }
+        }
+      }
+    },
+    "Move to Trash": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переместить в Корзину"
+          }
+        }
+      }
+    },
+    "Moved %@ to the Trash. Empty the Trash to free the space.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перемещено в Корзину: %@. Очистите Корзину, чтобы освободить место."
+          }
+        }
+      }
+    },
+    "No purchases to restore.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет покупок для восстановления."
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ничего"
+          }
+        }
+      }
+    },
+    "Not now": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не сейчас"
+          }
+        }
+      }
+    },
+    "Not touched by this app": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приложение этого не трогает"
+          }
+        }
+      }
+    },
+    "Nothing here can be cleaned from the app. To reduce it, restart your Mac and install pending macOS updates.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отсюда ничего нельзя очистить из приложения. Чтобы уменьшить это, перезагрузите Mac и установите ожидающие обновления macOS."
+          }
+        }
+      }
+    },
+    "Nothing to clean in this block.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В этом блоке нечего чистить."
+          }
+        }
+      }
+    },
+    "Nothing was removed.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ничего не удалено."
+          }
+        }
+      }
+    },
+    "npm download cache. Packages are downloaded again when needed.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кэш загрузок npm. Пакеты скачаются снова при необходимости."
+          }
+        }
+      }
+    },
+    "OK": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Old log files. Safe to remove.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Старые файлы логов. Можно удалять."
+          }
+        }
+      }
+    },
+    "Open": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть"
+          }
+        }
+      }
+    },
+    "Other": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Прочее"
+          }
+        }
+      }
+    },
+    "Other users & shared": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Другие пользователи и общее"
+          }
+        }
+      }
+    },
+    "Paused — press Space": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пауза — нажмите пробел"
+          }
+        }
+      }
+    },
+    "Pay once and never pay monthly again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заплатите один раз и больше не платите каждый месяц."
+          }
+        }
+      }
+    },
+    "Pay once, keep it forever": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заплатите один раз и пользуйтесь всегда"
+          }
+        }
+      }
+    },
+    "Play again": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Играть снова"
+          }
+        }
+      }
+    },
+    "Play Tetris while you wait": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поиграть в Tetris, пока ждёте"
+          }
+        }
+      }
+    },
+    "Please choose your Home folder: %@.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожалуйста, выберите вашу домашнюю папку: %@."
+          }
+        }
+      }
+    },
+    "Press Space to start": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите пробел, чтобы начать"
+          }
+        }
+      }
+    },
+    "Protected": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Защищено"
+          }
+        }
+      }
+    },
+    "Removes only what is safe to delete: caches, logs, build leftovers": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удаляет только то, что безопасно убрать: кэши, логи, остатки сборок"
+          }
+        }
+      }
+    },
+    "Rescan": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пересканировать"
+          }
+        }
+      }
+    },
+    "Restore purchases": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Восстановить покупки"
+          }
+        }
+      }
+    },
+    "Review": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверьте"
+          }
+        }
+      }
+    },
+    "Safe": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Безопасно"
+          }
+        }
+      }
+    },
+    "Safe items": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Безопасные"
+          }
+        }
+      }
+    },
+    "Safe items (caches, logs) are deleted permanently and regenerate on their own. Other items are moved to the Trash.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Безопасные элементы (кэши, логи) удаляются навсегда и создаются заново сами. Остальное перемещается в Корзину."
+          }
+        }
+      }
+    },
+    "Safe to clean": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Можно безопасно очистить"
+          }
+        }
+      }
+    },
+    "Same size as the only folder inside it, “%@”. That is one folder nested in another, not a copy, so nothing is counted twice.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Такого же размера, как единственная папка внутри, «%@». Это одна папка внутри другой, а не копия, поэтому ничего не считается дважды."
+          }
+        }
+      }
+    },
+    "Scan complete — show results": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сканирование завершено — показать результаты"
+          }
+        }
+      }
+    },
+    "Scanning your disk…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сканирование диска…"
+          }
+        }
+      }
+    },
+    "Score %lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Счёт %lld"
+          }
+        }
+      }
+    },
+    "See where your disk went": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Узнайте, куда ушло место на диске"
+          }
+        }
+      }
+    },
+    "See Your Disk": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See Your Disk"
+          }
+        }
+      }
+    },
+    "See Your Disk turns your storage into a chip map. Every block is a folder, and its size shows how much space it takes. Click a block to zoom in.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See Your Disk превращает ваше хранилище в карту микросхемы. Каждый блок — это папка, а его размер показывает, сколько места она занимает. Нажмите на блок, чтобы приблизить."
+          }
+        }
+      }
+    },
+    "Select": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать"
+          }
+        }
+      }
+    },
+    "selected for cleaning": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "выбрано для очистки"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать в Finder"
+          }
+        }
+      }
+    },
+    "Simulator caches. Rebuilt on demand.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кэши симулятора. Пересоздаются по необходимости."
+          }
+        }
+      }
+    },
+    "Simulator devices with their apps and data. Apps inside lose their data.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Устройства симулятора с приложениями и данными. Приложения внутри потеряют свои данные."
+          }
+        }
+      }
+    },
+    "Small items (%@)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мелкие элементы (%@)"
+          }
+        }
+      }
+    },
+    "Some folders are protected by macOS and were skipped, so the map may be slightly incomplete.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Некоторые папки защищены macOS и были пропущены, поэтому карта может быть немного неполной."
+          }
+        }
+      }
+    },
+    "Stop playing": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закончить игру"
+          }
+        }
+      }
+    },
+    "Support…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поддержка…"
+          }
+        }
+      }
+    },
+    "Swap and virtual memory (/private/var/vm) are managed by macOS and are never removed.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swap и виртуальная память (/private/var/vm) управляются macOS и никогда не удаляются."
+          }
+        }
+      }
+    },
+    "System": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Система"
+          }
+        }
+      }
+    },
+    "System Data": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Системные данные"
+          }
+        }
+      }
+    },
+    "System indexes, logs and metadata": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Системные индексы, логи и метаданные"
+          }
+        }
+      }
+    },
+    "System update snapshots (com.apple.os.update-…) belong to macOS and are only listed for information.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Снимки обновлений системы (com.apple.os.update-…) принадлежат macOS и показаны только для информации."
+          }
+        }
+      }
+    },
+    "The app does not use the internet and does not send any data anywhere. Every scan and every action happens on your Mac.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приложение не использует интернет и никуда не отправляет данные. Все сканирования и действия выполняются на вашем Mac."
+          }
+        }
+      }
+    },
+    "The app never uploads your files or any data about them. Every scan and every action happens on your Mac. The only connection is Apple's own purchase system.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приложение никогда не загружает ваши файлы и данные о них. Все сканирования и действия выполняются на вашем Mac. Единственное соединение — собственная система покупок Apple."
+          }
+        }
+      }
+    },
+    "The macOS system itself": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сама система macOS"
+          }
+        }
+      }
+    },
+    "The map still shows the old sizes. Rescan to see the current state.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Карта пока показывает старые размеры. Пересканируйте, чтобы увидеть актуальное состояние."
+          }
+        }
+      }
+    },
+    "The purchase could not be verified.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось подтвердить покупку."
+          }
+        }
+      }
+    },
+    "The subscription renews every month until you cancel it in your Apple account settings. Payment is charged to your Apple account.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подписка продлевается каждый месяц, пока вы не отмените её в настройках аккаунта Apple. Оплата списывается с вашего аккаунта Apple."
+          }
+        }
+      }
+    },
+    "This is everything on the disk outside your Home folder and Applications: macOS itself, system files, caches kept by the system, and snapshots. macOS does not let apps look inside.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Это всё на диске вне вашей домашней папки и Приложений: сама macOS, системные файлы, кэши системы и снимки. macOS не позволяет приложениям заглядывать внутрь."
+          }
+        }
+      }
+    },
+    "Too small to get their own blocks, so they are combined here. Different items, not copies of each other.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Слишком маленькие, чтобы получить свои блоки, поэтому объединены здесь. Это разные элементы, а не копии друг друга."
+          }
+        }
+      }
+    },
+    "Tool cache (for example AI models). Removing it means downloading again, which may be large.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кэш инструментов (например, ИИ-модели). После удаления придётся скачивать заново, это может быть много."
+          }
+        }
+      }
+    },
+    "Try again": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить"
+          }
+        }
+      }
+    },
+    "Turn sound off": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выключить звук"
+          }
+        }
+      }
+    },
+    "Turn sound on": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить звук"
+          }
+        }
+      }
+    },
+    "Upgrade to Lifetime": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перейти на Lifetime"
+          }
+        }
+      }
+    },
+    "Upgrade to Lifetime…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перейти на Lifetime…"
+          }
+        }
+      }
+    },
+    "Usually it is:": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обычно это:"
+          }
+        }
+      }
+    },
+    "Xcode build products. Xcode regenerates them on the next build.": {
+      "extractionState": "stale",
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Артефакты сборки Xcode. Xcode пересоздаст их при следующей сборке."
+          }
+        }
+      }
+    },
+    "You stay in control": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вы всё контролируете"
+          }
+        }
+      }
+    },
+    "Your laptop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш ноутбук"
+          }
+        }
+      }
+    },
+    "You now have Lifetime": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Теперь у вас Lifetime"
+          }
+        }
+      }
+    },
+    "Your monthly subscription is still active. Cancel it in your Apple account so you are not charged again.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ежемесячная подписка всё ещё активна. Отмените её в аккаунте Apple, чтобы с вас больше не списывали деньги."
+          }
+        }
+      }
+    },
+    "Manage subscription": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Управление подпиской"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        }
+      }
+    },
+    "Cancel monthly subscription…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить ежемесячную подписку…"
+          }
+        }
+      }
+    },
+    "Terms of Use": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Условия использования"
+          }
+        }
+      }
+    },
+    "Privacy Policy": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Политика конфиденциальности"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
