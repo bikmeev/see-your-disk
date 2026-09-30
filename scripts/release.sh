@@ -16,6 +16,8 @@ BUILD="$ROOT/build"
 APP="$BUILD/export/SeeYourDisk.app"
 DMG="$BUILD/SeeYourDisk-$VERSION.dmg"
 
+# a failed earlier run can leave the disk image mounted
+for v in /Volumes/"See Your Disk"*; do [ -d "$v" ] && hdiutil detach "$v" -force >/dev/null 2>&1 || true; done
 rm -rf "$BUILD"; mkdir -p "$BUILD"
 cd "$ROOT"
 
@@ -43,13 +45,15 @@ STAGE="$BUILD/dmg"; mkdir -p "$STAGE"
 cp -R "$APP" "$STAGE/"
 hdiutil create -volname "$VOL" -srcfolder "$STAGE" -ov -format UDRW -fs HFS+ "$RW" >/dev/null
 MOUNT="$(hdiutil attach "$RW" -readwrite -noverify -noautoopen | sed -n 's#.*\(/Volumes/.*\)$#\1#p' | head -1)"
+trap 'hdiutil detach "$MOUNT" -force >/dev/null 2>&1 || true' EXIT
+VOLNAME="$(basename "$MOUNT")"
 mkdir "$MOUNT/.background"
 cp "$ROOT/scripts/dmg-background.tiff" "$MOUNT/.background/background.tiff"
 ln -s /Applications "$MOUNT/Applications"
 # Finder lays out the window: needs "Automation" permission for your terminal the first time.
 osascript <<OSA
 tell application "Finder"
-  tell disk "$VOL"
+  tell disk "$VOLNAME"
     open
     set current view of container window to icon view
     set toolbar visible of container window to false
@@ -58,7 +62,12 @@ tell application "Finder"
     set opts to the icon view options of container window
     set arrangement of opts to not arranged
     set icon size of opts to 112
-    set background picture of opts to file ".background:background.tiff"
+    delay 1
+    try
+      set background picture of opts to (POSIX file "$MOUNT/.background/background.tiff" as alias)
+    on error
+      set background picture of opts to file ".background:background.tiff"
+    end try
     set position of item "SeeYourDisk.app" of container window to {170, 190}
     set position of item "Applications" of container window to {490, 190}
     close
@@ -71,6 +80,7 @@ end tell
 OSA
 sync
 hdiutil detach "$MOUNT" >/dev/null
+trap - EXIT
 hdiutil convert "$RW" -format UDZO -imagekey zlib-level=9 -o "$DMG" >/dev/null
 codesign --force --sign "Developer ID Application" --timestamp "$DMG"
 
