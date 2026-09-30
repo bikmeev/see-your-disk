@@ -8,6 +8,7 @@
 #
 # Usage: scripts/release.sh 1.0.0
 set -euo pipefail
+setopt null_glob   # zsh: an unmatched pattern (no stale mounts) must not be an error
 
 VERSION="${1:?usage: scripts/release.sh <version>}"
 PROFILE="seeyourdisk-notary"
